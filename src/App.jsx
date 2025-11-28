@@ -1,9 +1,13 @@
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
     <>
-      <h1 className="bg-sky-500">hello world</h1>
+      <Navbar />
+      <Home />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
