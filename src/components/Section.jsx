@@ -9,7 +9,7 @@ export default function Section() {
           </h2>
           <p className="text-gray-600 text-sm mt-2">
             Expert guidance for securing admissions in top colleges and
-            universities across India.
+            universities across Kerala, Karnataka and Tamil Nadu.
           </p>
         </div>
         <div className="border border-gray-300 rounded-xl p-6 m-2">

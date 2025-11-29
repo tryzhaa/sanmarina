@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import Section from "./components/Section";
 import WhyChoose from "./components/WhyChoose";
 import Approach from "./components/Approach";
+import Guiding from "./components/Guiding";
+import AboutUs from "./components/AboutUs";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Section />
       <WhyChoose />
       <Approach />
+      <Guiding />
+      <AboutUs />
     </>
   );
 }
