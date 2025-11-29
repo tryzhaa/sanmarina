@@ -1,7 +1,7 @@
 export default function Approach() {
   return (
-    <div className="m-10 w-[90%] mx-auto">
-      <div className="flex m-4">
+    <div className="m-10 w-[90%] mx-auto mb-10">
+      <div className="flex justify-between m-4 w-full">
         <div>
           <h2 className="text-2xl font-semibold">Our Approach</h2>
           <p className="text-gray-700 mt-4">
@@ -25,7 +25,7 @@ export default function Approach() {
             life.
           </p>
         </div>
-        <div className="border-black">
+        <div className="border-black w-full flex flex-col items-center p-4 rounded-xl">
           <h2 className="text-lg font-semibold m-2">Quick Inquiry</h2>
           <form>
             <label>Name</label>
