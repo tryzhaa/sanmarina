@@ -1,7 +1,7 @@
 export default function Section() {
   return (
     <div className="mt-15">
-      <h2 className="text-2xl font-bold text-center">What We Do</h2>
+      <h2 className="text-2xl font-semibold text-center">What We Do</h2>
       <div className="flex justify-center w-[90%] mx-auto gap-3 m-4">
         <div className=" border border-gray-300 rounded-xl p-6 m-2">
           <h2 className="text-[#1b365d] text-lg font-semibold">
