@@ -8,10 +8,11 @@ export default function End() {
             Let us help you navigate the path to your dream university. Our
             expert counselors are here to guide you every step of the way.
           </p>
-          <button className="bg-linear-to-r from-[#1b365d] to-[#00c9ff] border-[#1b375da4]  border px-6 p-4 rounded-full text-white font-semibold mt-10">
+          <button className="bg-[#1b365d] border px-6 p-4 rounded-full text-white font-semibold mt-10">
             Get Free Counselling
           </button>
         </div>
+        ``
       </div>
     </div>
   );

@@ -7,6 +7,7 @@ import Guiding from "./components/Guiding";
 import AboutUs from "./components/AboutUs";
 import CoreValues from "./components/CoreValues";
 import End from "./components/End";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <AboutUs />
       <CoreValues />
       <End />
+      <Footer />
     </div>
   );
 }
