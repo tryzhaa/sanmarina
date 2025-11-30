@@ -69,10 +69,11 @@ export default function WhyChoose() {
           </div>
         </div>
       </div>
-      <h2 className="p-4 mt-10 md:mt-20 text-sm md:text-lg text-gray-400 font-medium text-center bg-white rounded-2xl flex flex-wrap justify-center gap-4 md:gap-6">
-        <p className="text-black">Germany</p>|<p className="text-black">UK</p>|
-        <p className="text-black">Austria</p>|
-        <p className="text-black">Ireland</p>
+      <h2 className="p-4 mt-10 md:mt-20 text-sm md:text-lg text-gray-400 font-medium text-center bg-[#1b365d] rounded-2xl flex flex-wrap justify-center gap-4 md:gap-6">
+        <p className="text-white font-semibold">Germany</p>|
+        <p className="text-white font-semibold">UK</p>|
+        <p className="text-white">Austria</p>|
+        <p className="text-white font-semibold">Ireland</p>
       </h2>
     </div>
   );

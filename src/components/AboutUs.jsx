@@ -18,7 +18,7 @@ export default function AboutUs() {
             <br />
             We understand the challenges and oppurtunities that lie ahead, and
             we are dedicated to helping every student find their perfect path to
-            growth and success. Our team experienced couselors is passionate
+            growth and success. Our team experienced counselors is passionate
             about education and committed to your future.
           </p>
         </div>
@@ -31,7 +31,7 @@ export default function AboutUs() {
             </h2>
             <p className="text-gray-600 text-sm mt-2">
               To empower students with personalized, ethical, and comprehensive
-              guidance, enabling them to make informed decisiona nd acheive
+              guidance, enabling them to make informed decision and acheive
               best-fit universities worldwide.
             </p>
           </div>

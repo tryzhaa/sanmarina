@@ -21,7 +21,7 @@ export default function Footer() {
         </div>
         <hr className="text-gray-500 w-[90%] mx-auto" />
         <div className="text-gray-400 text-xs text-center p-6">
-          2024 Sanmarina. All rights reserved.
+          2025 Sanmarina. All rights reserved.
         </div>
       </div>
     </div>

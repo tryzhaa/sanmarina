@@ -38,7 +38,7 @@ export default function CoreValues() {
           </div>
           <div>
             <h2 className="text-[#1b365d] text-lg font-semibold">
-              Realiability
+              Reliability
             </h2>
             <p className="text-gray-600 text-sm mt-2">
               With our expertise and proven track record, you can depend on us

@@ -4,10 +4,7 @@ export default function Approach() {
       <div className="flex flex-wrap justify-center sm:justify-evenly items-center gap-10">
         <div className="max-w-lg w-full flex flex-col gap-3 p-4">
           <h2 className="text-2xl font-semibold">Our Approach</h2>
-          <p className="text-gray-700 mt-4">
-            We believe in a structed, student-centric process. Our WHY-HOW-WHAT
-            methodology ensures your journey is clear purposely, and successful.
-          </p>
+
           <h2 className="text-xl text-[#1b365d] font-semibold mt-4">WHY</h2>
           <p className="text-gray-700 mt-2">
             We start by understanding your core motivations,passions,and
