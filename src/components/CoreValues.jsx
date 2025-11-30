@@ -7,9 +7,9 @@ export default function CoreValues() {
   return (
     <div className="mt-10 w-[90%] mx-auto text-center">
       <h2 className="text-3xl font-bold m-10">Our Core Values</h2>
-      <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-6 m-2">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 place-content-center">
         <div className="bg-white shadow-xl max-w-88 w-full border border-gray-300 rounded-xl p-10 m-2">
-          <div className="bg-[#00c8ff21] text-[#00c1ff] rounded-full p-4 m-4 w-17 h-17">
+          <div className="bg-[#00c8ff21] text-[#00c1ff] rounded-full p-4 m-4 w-17 h-17 mx-auto">
             <MdOutlineRemoveRedEye className="text-4xl" />
           </div>
           <h2 className="text-[#1b365d] text-lg font-semibold">Transparency</h2>
@@ -20,7 +20,7 @@ export default function CoreValues() {
         </div>
 
         <div className="bg-white shadow-xl max-w-88 w-full border border-gray-300 rounded-xl p-10 m-2">
-          <div className="bg-[#00c8ff21] text-[#00c1ff] rounded-full p-4 m-4 w-17 h-17">
+          <div className="bg-[#00c8ff21] text-[#00c1ff] rounded-full p-4 m-4 w-17 h-17 mx-auto">
             <LuHeart className="text-4xl " />
           </div>
           <div>
@@ -33,7 +33,7 @@ export default function CoreValues() {
         </div>
 
         <div className="bg-white shadow-xl max-w-88 w-full border border-gray-300 rounded-xl p-10 m-2">
-          <div className="bg-[#00c8ff21] text-[#00c1ff] rounded-full p-4 m-4 w-17 h-17">
+          <div className="bg-[#00c8ff21] text-[#00c1ff] rounded-full p-4 m-4 w-17 h-17 mx-auto">
             <MdOutlineVerified className="text-4xl " />
           </div>
           <div>
@@ -48,7 +48,7 @@ export default function CoreValues() {
         </div>
 
         <div className="bg-white shadow-xl max-w-88 w-full border border-gray-300 rounded-xl p-10 m-2">
-          <div className="bg-[#00c8ff21] text-[#00c1ff] rounded-full p-4 m-4 w-17 h-17">
+          <div className="bg-[#00c8ff21] text-[#00c1ff] rounded-full p-4 m-4 w-17 h-17 mx-auto">
             <FaArrowTrendUp className="text-4xl " />
           </div>
           <div>

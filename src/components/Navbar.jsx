@@ -26,7 +26,7 @@ function Navbar() {
             </label>
           </div>
           <div className="flex flex-col items-center gap-6 max-h-0 overflow-hidden transition-all duration-300 peer-checked:max-h-64">
-            <h4 className="font-bold">Home</h4>
+            <h4 className="font-bold mt-4">Home</h4>
             <h4 className="text-gray-700 font-medium">Services</h4>
             <h4 className="text-gray-700 font-medium">About Us</h4>
             <h4 className="text-gray-700 font-medium">Contact</h4>
