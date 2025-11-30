@@ -11,19 +11,19 @@ export default function WhyChoose() {
         Why Choose Sanmarina
       </h2>
       <div className="grid sm:grid-cols-2 md:grid-cols-3 grid-col-1 gap-6 m-4">
-        <div className="bg-white p-6 rounded-md shadow-md flex gap-3 w-full">
+        <div className="bg-gray-50 p-6 rounded-md shadow-sm flex gap-3 w-full">
           <div className="bg-[#00C9FF]/10 rounded-full p-2 w-10 h-10 flex items-center justify-center">
             <MdOutlineVerified className="text-4xl text-[#00C9FF]" />
           </div>
           <div>
             <h2 className="font-medium">Genuine Guidance</h2>
-            <p className="text-gray-700">
+            <p className="text-gray-800">
               We provide honest advice tailored to your unique profile and
               aspirations.
             </p>
           </div>
         </div>
-        <div className="bg-white p-6 rounded-md shadow-md flex gap-3 w-full">
+        <div className="bg-gray-50 p-6 rounded-md shadow-sm flex gap-3 w-full">
           <div className="bg-[#00C9FF]/10 rounded-full p-2 w-10 h-10 flex items-center justify-center">
             <MdOutlineRemoveRedEye className="text-4xl text-[#00C9FF] " />
           </div>
@@ -35,7 +35,7 @@ export default function WhyChoose() {
             </p>
           </div>
         </div>
-        <div className="bg-white p-6 rounded-md shadow-md flex gap-3 w-full">
+        <div className="bg-gray-50 p-6 rounded-md shadow-sm flex gap-3 w-full">
           <div className="bg-[#00C9FF]/10 rounded-full p-2 w-10 h-10 flex items-center justify-center">
             <FaRegUser className="text-lg text-[#00C9FF]" />
           </div>
@@ -46,7 +46,7 @@ export default function WhyChoose() {
             </p>
           </div>
         </div>
-        <div className="bg-white p-6 rounded-md shadow-md flex gap-3 w-full">
+        <div className="bg-gray-50 p-6 rounded-md shadow-sm flex gap-3 w-full">
           <div className="bg-[#00C9FF]/10 rounded-full p-2 w-10 h-10 flex items-center justify-center">
             <PiHandshakeLight className="text-4xl text-[#00C9FF] " />
           </div>
@@ -57,7 +57,7 @@ export default function WhyChoose() {
             </p>
           </div>
         </div>
-        <div className="bg-white p-6 rounded-md shadow-md flex gap-3 w-full">
+        <div className="bg-gray-50 p-6 rounded-md shadow-sm flex gap-3 w-full">
           <div className="bg-[#00C9FF]/10 rounded-full p-2 w-10 h-10 flex items-center justify-center">
             <LiaLocationArrowSolid className="text-4xl text-[#00C9FF] " />
           </div>
