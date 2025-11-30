@@ -1,1 +1,23 @@
-@import "tailwindcss" 
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Medium.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: url("/fonts/HelveticaNowDisplay.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6,button {
+  font-family: "Montserrat", sans-serif;
+}
+
+p, span, div, body {
+  font-family: "HelveticaNowDisplay", sans-serif;
+}

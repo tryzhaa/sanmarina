@@ -12,8 +12,8 @@ export default function WhyChoose() {
       </h2>
       <div className="grid sm:grid-cols-3 grid-col-1 gap-6 m-4">
         <div className="bg-white p-6 rounded-md shadow-md flex gap-3 w-full">
-          <div className="bg-gray-200 rounded-full p-2 w-10 h-10 flex items-center justify-center">
-            <MdOutlineVerified className="text-4xl " />
+          <div className="bg-[#00C9FF]/10 rounded-full p-2 w-10 h-10 flex items-center justify-center">
+            <MdOutlineVerified className="text-4xl text-[#00C9FF]" />
           </div>
           <div>
             <h2 className="font-medium">Genuine Guidance</h2>
@@ -24,8 +24,8 @@ export default function WhyChoose() {
           </div>
         </div>
         <div className="bg-white p-6 rounded-md shadow-md flex gap-3 w-full">
-          <div className="bg-gray-200 rounded-full p-2 w-10 h-10 flex items-center justify-center">
-            <MdOutlineRemoveRedEye className="text-4xl " />
+          <div className="bg-[#00C9FF]/10 rounded-full p-2 w-10 h-10 flex items-center justify-center">
+            <MdOutlineRemoveRedEye className="text-4xl text-[#00C9FF] " />
           </div>
           <div>
             <h2 className="font-medium">Transparency</h2>
@@ -36,8 +36,8 @@ export default function WhyChoose() {
           </div>
         </div>
         <div className="bg-white p-6 rounded-md shadow-md flex gap-3 w-full">
-          <div className="bg-gray-200 rounded-full p-2 w-10 h-10 flex items-center justify-center">
-            <FaRegUser className="text-lg " />
+          <div className="bg-[#00C9FF]/10 rounded-full p-2 w-10 h-10 flex items-center justify-center">
+            <FaRegUser className="text-lg text-[#00C9FF]" />
           </div>
           <div>
             <h2 className="font-medium">One-on-one support</h2>
@@ -47,8 +47,8 @@ export default function WhyChoose() {
           </div>
         </div>
         <div className="bg-white p-6 rounded-md shadow-md flex gap-3 w-full">
-          <div className="bg-gray-200 rounded-full p-2 w-10 h-10 flex items-center justify-center">
-            <PiHandshakeLight className="text-4xl " />
+          <div className="bg-[#00C9FF]/10 rounded-full p-2 w-10 h-10 flex items-center justify-center">
+            <PiHandshakeLight className="text-4xl text-[#00C9FF] " />
           </div>
           <div>
             <h2 className="font-medium">Trusted college connections</h2>
@@ -58,8 +58,8 @@ export default function WhyChoose() {
           </div>
         </div>
         <div className="bg-white p-6 rounded-md shadow-md flex gap-3 w-full">
-          <div className="bg-gray-200 rounded-full p-2 w-10 h-10 flex items-center justify-center">
-            <LiaLocationArrowSolid className="text-4xl " />
+          <div className="bg-[#00C9FF]/10 rounded-full p-2 w-10 h-10 flex items-center justify-center">
+            <LiaLocationArrowSolid className="text-4xl text-[#00C9FF] " />
           </div>
           <div>
             <h2 className="font-medium">We guide, not sell</h2>
@@ -69,7 +69,7 @@ export default function WhyChoose() {
           </div>
         </div>
       </div>
-      <h2 className="p-4 mt-20 text-lg text-gray-400 font-medium text-center bg-white rounded-2xl flex flex-wrap justify-center gap-6">
+      <h2 className="p-4 mt-10 md:mt-20 text-sm md:text-lg text-gray-400 font-medium text-center bg-white rounded-2xl flex flex-wrap justify-center gap-4 md:gap-6">
         <p className="text-black">Germany</p>|<p className="text-black">UK</p>|
         <p className="text-black">Austria</p>|
         <p className="text-black">Ireland</p>

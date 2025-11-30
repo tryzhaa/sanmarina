@@ -23,9 +23,9 @@ export default function AboutUs() {
           </p>
         </div>
       </div>
-      <div className="bg-white p-4 rounded-md mt-10">
+      <div className=" p-4 rounded-md mt-10">
         <div className="flex flex-wrap justify-evenly gap-3 mt-10">
-          <div className="w-full max-w-md shadow-md bg-gray-50 border border-gray-300 rounded-xl p-6 m-2">
+          <div className="w-full max-w-md shadow-lg bg-white border border-gray-300 rounded-xl p-6 m-2">
             <h2 className="text-[#1b365d] text-lg font-semibold">
               Our Mission
             </h2>
