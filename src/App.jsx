@@ -8,7 +8,7 @@ import AboutUs from "./components/AboutUs";
 
 function App() {
   return (
-    <>
+    <div className="bg-gray-100 min-h-screen">
       <Navbar />
       <Home />
       <Section />
@@ -16,7 +16,7 @@ function App() {
       <Approach />
       <Guiding />
       <AboutUs />
-    </>
+    </div>
   );
 }
 

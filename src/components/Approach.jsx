@@ -1,8 +1,8 @@
 export default function Approach() {
   return (
-    <div className="m-10 w-[90%] mx-auto">
-      <div className="flex justify-between m-4">
-        <div>
+    <div className="m-10 w-[90%] mx-auto bg-white p-4 rounded-md">
+      <div className="flex flex-wrap justify-between m-4 gap-4">
+        <div className="max-w-2xl w-full">
           <h2 className="text-2xl font-semibold">Our Approach</h2>
           <p className="text-gray-700 mt-4">
             We believe in a structed, student-centric process. Our WHY-HOW-WHAT
@@ -25,7 +25,7 @@ export default function Approach() {
             life.
           </p>
         </div>
-        <div className="border border-gray-300 rounded-xl p-6 m-2">
+        <div className="w-full max-w-lg border border-gray-300 rounded-xl p-6 m-2">
           <h2 className="text-lg font-semibold m-2">Quick Inquiry</h2>
           <form>
             <label>Name</label>

@@ -10,8 +10,8 @@ export default function WhyChoose() {
       <h2 className="text-2xl font-semibold text-center m-8">
         Why Choose Sanmarina
       </h2>
-      <div className="grid grid-cols-3 gap-6 m-4">
-        <div className="flex gap-3 w-full">
+      <div className="grid sm:grid-cols-3 grid-col-1 gap-6 m-4">
+        <div className="bg-white p-6 rounded-md shadow-md flex gap-3 w-full">
           <div className="bg-gray-200 rounded-full p-2 w-10 h-10 flex items-center justify-center">
             <MdOutlineVerified className="text-4xl " />
           </div>
@@ -23,7 +23,7 @@ export default function WhyChoose() {
             </p>
           </div>
         </div>
-        <div className="flex gap-3 w-full">
+        <div className="bg-white p-6 rounded-md shadow-md flex gap-3 w-full">
           <div className="bg-gray-200 rounded-full p-2 w-10 h-10 flex items-center justify-center">
             <MdOutlineRemoveRedEye className="text-4xl " />
           </div>
@@ -35,7 +35,7 @@ export default function WhyChoose() {
             </p>
           </div>
         </div>
-        <div className="flex gap-3 w-full">
+        <div className="bg-white p-6 rounded-md shadow-md flex gap-3 w-full">
           <div className="bg-gray-200 rounded-full p-2 w-10 h-10 flex items-center justify-center">
             <FaRegUser className="text-lg " />
           </div>
@@ -46,7 +46,7 @@ export default function WhyChoose() {
             </p>
           </div>
         </div>
-        <div className="flex gap-3 w-full">
+        <div className="bg-white p-6 rounded-md shadow-md flex gap-3 w-full">
           <div className="bg-gray-200 rounded-full p-2 w-10 h-10 flex items-center justify-center">
             <PiHandshakeLight className="text-4xl " />
           </div>
@@ -57,7 +57,7 @@ export default function WhyChoose() {
             </p>
           </div>
         </div>
-        <div className="flex gap-3 w-full">
+        <div className="bg-white p-6 rounded-md shadow-md flex gap-3 w-full">
           <div className="bg-gray-200 rounded-full p-2 w-10 h-10 flex items-center justify-center">
             <LiaLocationArrowSolid className="text-4xl " />
           </div>
@@ -69,7 +69,7 @@ export default function WhyChoose() {
           </div>
         </div>
       </div>
-      <h2 className="p-4 mt-20 text-lg text-gray-400 font-medium text-center bg-gray-200 rounded-2xl flex flex-wrap justify-center gap-6">
+      <h2 className="p-4 mt-20 text-lg text-gray-400 font-medium text-center bg-white rounded-2xl flex flex-wrap justify-center gap-6">
         <p className="text-black">Germany</p>|<p className="text-black">UK</p>|
         <p className="text-black">Austria</p>|
         <p className="text-black">Ireland</p>
