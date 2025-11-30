@@ -3,7 +3,7 @@ export default function AboutUs() {
     <div className="mt-10 w-[90%] mx-auto py-10">
       <div className="flex flex-wrap justify-evenly gap-6 bg-white p-8 rounded-md">
         <img
-          src="/image.png"
+          src="/image.jpg"
           alt="who are we"
           className="max-w-md w-full rounded-md"
         />
