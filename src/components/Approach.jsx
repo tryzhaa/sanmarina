@@ -1,8 +1,8 @@
 export default function Approach() {
   return (
-    <div className="m-10 w-[90%] mx-auto bg-white p-4 rounded-md">
-      <div className="flex flex-wrap justify-between m-4 gap-4">
-        <div className="max-w-2xl w-full">
+    <div className="m-10 w-[90%] mx-auto  p-4 rounded-md">
+      <div className="flex flex-wrap justify-between m-4 gap-6">
+        <div className="max-w-xl w-full flex flex-col gap-3">
           <h2 className="text-2xl font-semibold">Our Approach</h2>
           <p className="text-gray-700 mt-4">
             We believe in a structed, student-centric process. Our WHY-HOW-WHAT
@@ -25,11 +25,69 @@ export default function Approach() {
             life.
           </p>
         </div>
-        <div className="w-full max-w-lg border border-gray-300 rounded-xl p-6 m-2">
-          <h2 className="text-lg font-semibold m-2">Quick Inquiry</h2>
-          <form>
-            <label>Name</label>
-            <input></input>
+        <div className="w-full max-w-lg border border-gray-300 bg-gray-50 rounded-xl p-6 m-2 shadow-md">
+          <h2 className="text-lg text-center font-semibold m-2">
+            Quick Inquiry
+          </h2>
+          <form name="contact" method="POST" data-netlify="true">
+            <div className="flex flex-col gap-2">
+              <label htmlFor="form-name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="form-name"
+                className="w-full p-2 border border-gray-300 bg-white rounded-lg"
+              />
+            </div>
+            <div className="flex flex-col gap-2 mt-3">
+              <div className="flex gap-4">
+                <div>
+                  <label htmlFor="form-phone">Phone</label>
+                  <input
+                    type="number"
+                    name="phone"
+                    id="form-phone"
+                    className="w-full p-2 border border-gray-300 bg-white rounded-lg"
+                  />
+                </div>
+                <div>
+                  <label htmlFor="form-email">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="form-email"
+                    className="w-full p-2 border border-gray-300 bg-white rounded-lg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="mt-3">
+              <label htmlFor="form-role">I am a </label>
+              <select
+                name="role"
+                id="form-role"
+                className="w-full p-2 border border-gray-300 bg-white rounded-lg"
+              >
+                <option value="student">Student</option>
+                <option value="parent">Parent</option>
+              </select>
+            </div>
+            <div className="mt-3">
+              <label htmlFor="form-message">Message</label>
+              <textarea
+                name="message"
+                id="form-message"
+                className="w-full p-2 border border-gray-300 bg-white rounded-lg"
+              ></textarea>
+            </div>
+            <div className="mt-4 text-center w-full">
+              <button
+                type="submit"
+                className="max-w-[18rem] w-full p-2 rounded-md bg-[#1b365d] text-white font-semibold"
+              >
+                Submit
+              </button>
+            </div>
           </form>
         </div>
       </div>
