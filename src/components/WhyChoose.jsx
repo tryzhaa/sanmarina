@@ -10,7 +10,7 @@ export default function WhyChoose() {
       <h2 className="text-2xl font-semibold text-center m-8">
         Why Choose Sanmarina
       </h2>
-      <div className="grid sm:grid-cols-3 grid-col-1 gap-6 m-4">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 grid-col-1 gap-6 m-4">
         <div className="bg-white p-6 rounded-md shadow-md flex gap-3 w-full">
           <div className="bg-[#00C9FF]/10 rounded-full p-2 w-10 h-10 flex items-center justify-center">
             <MdOutlineVerified className="text-4xl text-[#00C9FF]" />
