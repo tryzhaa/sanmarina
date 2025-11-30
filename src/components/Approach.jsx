@@ -1,8 +1,8 @@
 export default function Approach() {
   return (
-    <div className="m-10 w-[90%] mx-auto  p-4 rounded-md">
-      <div className="flex flex-wrap justify-between m-4 gap-6">
-        <div className="max-w-xl w-full flex flex-col gap-3">
+    <div className="my-10 w-[90%] mx-auto rounded-md">
+      <div className="flex flex-wrap justify-center sm:justify-evenly items-center gap-10">
+        <div className="max-w-lg w-full flex flex-col gap-3 p-4">
           <h2 className="text-2xl font-semibold">Our Approach</h2>
           <p className="text-gray-700 mt-4">
             We believe in a structed, student-centric process. Our WHY-HOW-WHAT
@@ -25,7 +25,7 @@ export default function Approach() {
             life.
           </p>
         </div>
-        <div className="w-full max-w-lg border border-gray-300 bg-gray-50 rounded-xl p-6 m-2 shadow-md">
+        <div className="w-full max-w-lg border border-gray-300 bg-gray-50 rounded-xl p-6 shadow-md">
           <h2 className="text-lg text-center font-semibold m-2">
             Quick Inquiry
           </h2>
@@ -36,32 +36,32 @@ export default function Approach() {
                 type="text"
                 name="name"
                 id="form-name"
-                className="w-full p-2 border border-gray-300 bg-white rounded-lg"
+                className="w-full p-1 border border-gray-300 bg-white rounded-lg"
               />
             </div>
-            <div className="flex flex-col gap-2 mt-3">
-              <div className="flex gap-4">
-                <div>
+            <div className="flex flex-col gap-2 mt-2">
+              <div className="flex flex-wrap justify-between gap-4">
+                <div className="flex flex-col w-full sm:max-w-[48%]">
                   <label htmlFor="form-phone">Phone</label>
                   <input
                     type="number"
                     name="phone"
                     id="form-phone"
-                    className="w-full p-2 border border-gray-300 bg-white rounded-lg"
+                    className="p-1 border border-gray-300 bg-white rounded-lg"
                   />
                 </div>
-                <div>
+                <div className="flex flex-col w-full sm:max-w-[48%]">
                   <label htmlFor="form-email">Email</label>
                   <input
                     type="email"
                     name="email"
                     id="form-email"
-                    className="w-full p-2 border border-gray-300 bg-white rounded-lg"
+                    className="p-1 border border-gray-300 bg-white rounded-lg"
                   />
                 </div>
               </div>
             </div>
-            <div className="mt-3">
+            <div className="mt-2">
               <label htmlFor="form-role">I am a </label>
               <select
                 name="role"
@@ -72,7 +72,7 @@ export default function Approach() {
                 <option value="parent">Parent</option>
               </select>
             </div>
-            <div className="mt-3">
+            <div className="mt-2">
               <label htmlFor="form-message">Message</label>
               <textarea
                 name="message"
